@@ -4,7 +4,7 @@ Implementation of Flatness Index Score (FIS) by Yu et al (2024) found at https:/
 ### How to use
 The code is written to be used with domain adaptation object detection code base found at https://github.com/justinkay/aldi from the ALDI++ paper.  See reference below.
 
-After installing the aldi github repository, c the model_selection directory to the top directory.  
+After installing the aldi github repository, copy the model_selection directory to the top directory.  
 
 tools/train_net.py provides an example of using the model selection metric in a training script.  It behaves in the same way as the checkpoint using AP50 to save the best model.
 
